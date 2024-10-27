@@ -10,7 +10,7 @@ private val LightColorScheme = lightColorScheme(
     onPrimary = Color.White,
     secondary = Color(0xFF03DAC5),
     onSecondary = Color.Black,
-    // Tambahkan warna lain sesuai kebutuhan
+    // Tambahkan warna lain sesuai kebutuhan n
 )
 
 @Composable
