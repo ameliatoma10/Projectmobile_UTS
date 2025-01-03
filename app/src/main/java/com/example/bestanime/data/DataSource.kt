@@ -3,7 +3,7 @@ package com.example.bestanime.data
 import com.example.bestanime.R
 import com.example.bestanime.model.Anime
 
-class DataSource {
+class DataSource { \\Untuk menampilkan data dari model Anime ke elemen UI, Anda menggunakan fungsi dalam kelas DataSource.
     fun loadAnimes(): List<Anime> {
         return listOf(
             Anime(R.string.anime1, R.drawable.image1, "Anime Spy X family menceritakan mengenai petualangan agen rahasia yang menjalankan sebuah misi-misi yang tidak terduga. Misi terpenting dari Spy X Family yakni untuk menjaga perdamaian antar negara dengan cakupan wilayah Westalis di barat dan Ostania di timur"),
